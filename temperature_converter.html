@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h2>Temperature Converter</h2>
+
+    <form method="post" action="temperature_converter.php">
+        <label for="temperature">Enter Temperature:</label>
+        <input type="number" name="temperature" id="temperature" required>
+        <br>
+
+        <label for="conversion">Select Conversion:</label>
+        <select name="conversion" id="conversion" required>
+            <option value="celsius_to_fahrenheit">Celsius to Fahrenheit</option>
+            <option value="fahrenheit_to_celsius">Fahrenheit to Celsius</option>
+        </select>
+        <br>
+
+        <input type="submit" value="Convert">
+    </form>
+</body>
+
+</html>
